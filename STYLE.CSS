@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align:center;
+    background-color: aliceblue#f4f4f4;
+    margin:0;
+    padding:20px;
+}
+h1{
+    color:#333;
+
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:10px;
+    max-width:900px;
+    margin:auto;
+}
+.gallery img{
+    
+}
